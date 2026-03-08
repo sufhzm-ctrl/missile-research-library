@@ -11,7 +11,7 @@ import os
 from datetime import datetime
 
 # Configuration
-ARXIV_FEED_URL = "http://export.arxiv.org/api/query?search_query=cat:cs.RO+AND+(missile+OR+ballistic+OR+guidance+OR+trajectory+OR+defense)&sortBy=submittedDate&sortOrder=descending&start=0&max_results=10"
+ARXIV_FEED_URL = "http://export.arxiv.org/api/query?search_query=cat:cs.RO+AND+(missile+OR+ballistic+OR+guidance+OR+trajectory+OR+defense)&sortBy=submittedDate&sortOrder=descending&start=0&max_results=15"
 OUTPUT_FILE = "docs/data/papers.json"
 
 def fetch_arxiv_papers():
