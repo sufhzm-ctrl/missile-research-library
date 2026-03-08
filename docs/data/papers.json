@@ -1,231 +1,236 @@
 {
-  "last_updated": "2026-03-08T23:39:45.198605",
+  "last_updated": "2026-03-08T23:54:11.311243",
   "total_papers": 15,
   "papers": [
     {
-      "title": "RoboPocket: Improve Robot Policies Instantly with Your Phone",
+      "title": "Calculating trace distances of bosonic states in Krylov subspace",
       "authors": [
-        "Junjie Fang",
-        "Wendi Chen",
-        "Han Xue",
-        "Fangyuan Zhou",
-        "Tian Le",
-        "Yi Wang",
-        "Yuting Zhang",
-        "Jun Lv",
-        "Chuan Wen",
-        "Cewu Lu"
+        "Javier Mart\u00ednez-Cifuentes",
+        "Nicol\u00e1s Quesada"
       ],
-      "published": "2026-03-05T18:59:38Z",
-      "arxiv_id": "2603.05504v1",
-      "url": "http://arxiv.org/abs/2603.05504v1",
-      "abstract": "Scaling imitation learning is fundamentally constrained by the efficiency of data collection. While handheld interfaces have emerged as a scalable solution for in-the-wild data acquisition, they predominantly operate in an open-loop manner: operators blindly collect demonstrations without knowing the underlying policy's weaknesses, leading to inefficient coverage of critical state distributions. Conversely, interactive methods like DAgger effectively address covariate shift but rely on physical robot execution, which is costly and difficult to scale. To reconcile this trade-off, we introduce RoboPocket, a portable system that enables Robot-Free Instant Policy Iteration using single consumer smartphones. Its core innovation is a Remote Inference framework that visualizes the policy's predicted trajectory via Augmented Reality (AR) Visual Foresight. This immersive feedback allows collectors to proactively identify potential failures and focus data collection on the policy's weak regions without requiring a physical robot. Furthermore, we implement an asynchronous Online Finetuning pipeline that continuously updates the policy with incoming data, effectively closing the learning loop in minutes. Extensive experiments demonstrate that RoboPocket adheres to data scaling laws and doubles the data efficiency compared to offline scaling strategies, overcoming their long-standing efficiency bottleneck. Moreover, our instant iteration loop also boosts sample efficiency by up to 2$\\times$ in distributed environments a small number of interactive corrections per person. Project page and videos: https://robo-pocket.github.io.",
+      "published": "2026-03-05T18:59:06Z",
+      "arxiv_id": "2603.05499v1",
+      "url": "http://arxiv.org/abs/2603.05499v1",
+      "abstract": "Continuous-variable quantum systems are central to quantum technologies, with Gaussian states playing a key role due to their broad applicability and simple description via first and second moments. Distinguishing Gaussian states requires computing their trace distance, but no analytical formula exists for general states, and numerical evaluation is difficult due to the exponential cost of representing infinite-dimensional operators. We introduce an efficient numerical method to compute the trace distance between a pure and a mixed Gaussian state, based on a generalized Lanczos algorithm that avoids explicit matrix representations and uses only moment information. The technique extends to non-Gaussian states expressible as linear combinations of Gaussian states. We also show how it can yield lower bounds on the trace distance between mixed Gaussian states, offering a practical tool for state certification and learning in continuous-variable quantum systems.",
+      "categories": "quant-ph"
+    },
+    {
+      "title": "The Spatial and Temporal Resolution of Motor Intention in Multi-Target Prediction",
+      "authors": [
+        "Marie Dominique Schmidt",
+        "Ioannis Iossifidis"
+      ],
+      "published": "2026-03-05T17:40:30Z",
+      "arxiv_id": "2603.05418v1",
+      "url": "http://arxiv.org/abs/2603.05418v1",
+      "abstract": "Reaching for grasping, and manipulating objects are essential motor functions in everyday life. Decoding human motor intentions is a central challenge for rehabilitation and assistive technologies. This study focuses on predicting intentions by inferring movement direction and target location from multichannel electromyography (EMG) signals, and investigating how spatially and temporally accurate such information can be detected relative to movement onset. We present a computational pipeline that combines data-driven temporal segmentation with classical and deep learning classifiers in order to analyse EMG data recorded during the planning, early execution, and target contact phases of a delayed reaching task.   Early intention prediction enables devices to anticipate user actions, improving responsiveness and supporting active motor recovery in adaptive rehabilitation systems. Random Forest achieves $80\\%$ accuracy and Convolutional Neural Network $75\\%$ accuracy across $25$ spatial targets, each separated by $14^\\circ$ azimuth/altitude. Furthermore, a systematic evaluation of EMG channels, feature sets, and temporal windows demonstrates that motor intention can be efficiently decoded even with drastically reduced data. This work sheds light on the temporal and spatial evolution of motor intention, paving the way for anticipatory control in adaptive rehabilitation systems and driving advancements in computational approaches to motor neuroscience.",
+      "categories": "q-bio.NC"
+    },
+    {
+      "title": "Nonreciprocal transparency windows, Fano resonance, and slow/fast light in a membrane-in-the-middle magnomechanical system induced by the Barnett effect",
+      "authors": [
+        "M. Amghar",
+        "M. Amazioug"
+      ],
+      "published": "2026-03-05T16:40:59Z",
+      "arxiv_id": "2603.05359v1",
+      "url": "http://arxiv.org/abs/2603.05359v1",
+      "abstract": "Nonreciprocal phenomena are currently a major focus of research within the fields of classical and quantum technology. In this work, we theoretically investigate the interplay among multiple magnomechanically induced transparency (MMIT) windows, Fano resonances, slow/fast light, and nonreciprocal absorption and group delay in a hybrid cavity magnomechanical system. This system is composed of two yttrium iron garnet (YIG) spheres and a membrane positioned at the center of the cavity. By analyzing the absorption spectrum of a weak probe field in the presence of a strong control field, we demonstrate the emergence of five transparency windows resulting from combined photon-phonon, photon-magnon, and phonon-magnon interactions. The photon-phonon coupling associated with the membrane plays a crucial role in enhancing and tailoring these transparency features. We further examine the impact of the Barnett effect on the absorption and dispersion characteristics, showing that it enables the controllable manipulation of transparency windows and the generation of tunable Fano resonance profiles. The influence of cavity decay and magnon dissipation rates on the spectral response is also analyzed. In addition, we demonstrate that the group delay of the transmitted probe field can be effectively tuned via the photon-phonon coupling strength and the Barnett effect, allowing for a controllable transition between slow and fast light regimes. Finally, nonreciprocal absorption and group delay are achieved through appropriate adjustment of the coupling parameters. These findings highlight the potential of the proposed hybrid system for applications in optical signal processing and quantum information technologies.",
+      "categories": "quant-ph"
+    },
+    {
+      "title": "Probing vacuum birefringence in an Ultrastrong Laser Field via High-energy Gamma-ray Polarimetry",
+      "authors": [
+        "Da-Lin Wang",
+        "Xian-Zhang Wu",
+        "Rui-Qi Qin",
+        "Jiang-Tao Han",
+        "Peng-Pei Xie",
+        "Bing-Jun Li",
+        "Huai-Hang Song",
+        "Yan-Fei Li"
+      ],
+      "published": "2026-03-05T15:27:49Z",
+      "arxiv_id": "2603.05282v1",
+      "url": "http://arxiv.org/abs/2603.05282v1",
+      "abstract": "Vacuum birefringence (VB), a fundamental prediction of nonlinear quantum electrodynamics (QED), has eluded direct laboratory detection due to its extreme weakness. We propose a compact, \"self-probing\" scheme where a GeV electron beam collides head-on with a petawatt laser pulse. Circularly polarized gamma-ray photons, generated via nonlinear Compton scattering in the same pulse, then probe the birefringent vacuum it induces. This integrated design bypasses the stringent synchronization and beam transport requirements of traditional pump-probe setups. Our nonperturbative strong-field QED simulations reveal a clear VB signature: conversion of circular to linear polarization, with the induced Stokes parameter $S_1$ reaching ~0.019 within the selected angular range. This corresponds to a refractive index difference $\u0394n = 1.829 \\times 10^{-4}$ over micron-scale paths, directly measurable as a high-contrast \"X-shape\" asymmetry in $e^+e^-$ pair distributions. The scheme provides a feasible path to first laboratory VB detection with current laser and accelerator technologies.",
+      "categories": "physics.plasm-ph"
+    },
+    {
+      "title": "From Code to Road: A Vehicle-in-the-Loop and Digital Twin-Based Framework for Central Car Server Testing in Autonomous Driving",
+      "authors": [
+        "Chengdong Wu",
+        "Sven Kirchner",
+        "Nils Purschke",
+        "Axel Torschmied",
+        "Norbert Kroth",
+        "Yinglei Song",
+        "Andr\u00e9 Schamschurko",
+        "Erik Leo Ha\u00df",
+        "Kuo-Yi Chao",
+        "Yi Zhang",
+        "Nenad Petrovic",
+        "Alois C. Knoll"
+      ],
+      "published": "2026-03-05T15:23:28Z",
+      "arxiv_id": "2603.05279v1",
+      "url": "http://arxiv.org/abs/2603.05279v1",
+      "abstract": "Simulation is one of the most essential parts in the development stage of automotive software. However, purely virtual simulations often struggle to accurately capture all real-world factors due to limitations in modeling. To address this challenge, this work presents a test framework for automotive software on the centralized E/E architecture, which is a central car server in our case, based on Vehicle-in-the-Loop (ViL) and digital twin technology. The framework couples a physical test vehicle on a dynamometer test bench with its synchronized virtual counterpart in a simulation environment. Our approach provides a safe, reproducible, realistic, and cost-effective platform for validating autonomous driving algorithms with a centralized architecture. This test method eliminates the need to test individual physical ECUs and their communication protocols separately. In contrast to traditional ViL methods, the proposed framework runs the full autonomous driving software directly on the vehicle hardware after the simulation process, eliminating flashing and intermediate layers while enabling seamless virtual-physical integration and accurately reflecting centralized E/E behavior. In addition, incorporating mixed testing in both simulated and physical environments reduces the need for full hardware integration during the early stages of automotive development. Experimental case studies demonstrate the effectiveness of the framework in different test scenarios. These findings highlight the potential to reduce development and integration efforts for testing autonomous driving pipelines in the future.",
       "categories": "cs.RO"
     },
     {
-      "title": "Safe-SAGE: Social-Semantic Adaptive Guidance for Safe Engagement through Laplace-Modulated Poisson Safety Functions",
+      "title": "Robust and optimal control of open quantum systems",
       "authors": [
-        "Lizhi Yang",
-        "Ryan M. Bena",
-        "Meg Wilkinson",
-        "Gilbert Bahati",
-        "Andy Navarro Brenes",
-        "Ryan K. Cosner",
-        "Aaron D. Ames"
+        "Zi-Jie Chen",
+        "Hongwei Huang",
+        "Lida Sun",
+        "Qing-Xuan Jie",
+        "Jie Zhou",
+        "Ziyue Hua",
+        "Yifang Xu",
+        "Weiting Wang",
+        "Guang-Can Guo",
+        "Chang-Ling Zou",
+        "Luyan Sun",
+        "Xu-Bo Zou"
       ],
-      "published": "2026-03-05T18:59:02Z",
-      "arxiv_id": "2603.05497v1",
-      "url": "http://arxiv.org/abs/2603.05497v1",
-      "abstract": "Traditional safety-critical control methods, such as control barrier functions, suffer from semantic blindness, exhibiting the same behavior around obstacles regardless of contextual significance. This limitation leads to the uniform treatment of all obstacles, despite their differing semantic meanings. We present Safe-SAGE (Social-Semantic Adaptive Guidance for Safe Engagement), a unified framework that bridges the gap between high-level semantic understanding and low-level safety-critical control through a Poisson safety function (PSF) modulated using a Laplace guidance field. Our approach perceives the environment by fusing multi-sensor point clouds with vision-based instance segmentation and persistent object tracking to maintain up-to-date semantics beyond the camera's field of view. A multi-layer safety filter is then used to modulate system inputs to achieve safe navigation using this semantic understanding of the environment. This safety filter consists of both a model predictive control layer and a control barrier function layer. Both layers utilize the PSF and flux modulation of the guidance field to introduce varying levels of conservatism and multi-agent passing norms for different obstacles in the environment. Our framework enables legged robots to navigate semantically rich, dynamic environments with context-dependent safety margins while maintaining rigorous safety guarantees.",
-      "categories": "cs.RO"
+      "published": "2026-03-05T15:02:47Z",
+      "arxiv_id": "2603.05249v1",
+      "url": "http://arxiv.org/abs/2603.05249v1",
+      "abstract": "Recent advancements in quantum technologies have highlighted the importance of mitigating system imperfections, including parameter uncertainties and decoherence effects, to improve the performance of experimental platforms. However, most of the previous efforts in quantum control are devoted to the realization of arbitrary unitary operations in a closed quantum system. Here, we improve the algorithm that suppresses system imperfections and noises, providing notably enhanced scalability for robust and optimal control of open quantum systems. Through experimental validation in a superconducting quantum circuit, we demonstrate that our approach outperforms its conventional counterpart for closed quantum systems with an ultra-low infidelity of about $0.60\\%$, while the complexity of this algorithm exhibits the same scaling, with only a modest increase in the prefactor. This work represents a notable advancement in quantum optimal control techniques, paving the way for realizing quantum-enhanced technologies in practical applications.",
+      "categories": "quant-ph"
     },
     {
-      "title": "cuRoboV2: Dynamics-Aware Motion Generation with Depth-Fused Distance Fields for High-DoF Robots",
+      "title": "Digital Twin Driven Textile Classification and Foreign Object Recognition in Automated Sorting Systems",
       "authors": [
-        "Balakumar Sundaralingam",
-        "Adithyavairavan Murali",
-        "Stan Birchfield"
+        "Serkan Ergun",
+        "Tobias Mitterer",
+        "Hubert Zangl"
       ],
-      "published": "2026-03-05T18:58:04Z",
-      "arxiv_id": "2603.05493v1",
-      "url": "http://arxiv.org/abs/2603.05493v1",
-      "abstract": "Effective robot autonomy requires motion generation that is safe, feasible, and reactive. Current methods are fragmented: fast planners output physically unexecutable trajectories, reactive controllers struggle with high-fidelity perception, and existing solvers fail on high-DoF systems. We present cuRoboV2, a unified framework with three key innovations: (1) B-spline trajectory optimization that enforces smoothness and torque limits; (2) a GPU-native TSDF/ESDF perception pipeline that generates dense signed distance fields covering the full workspace, unlike existing methods that only provide distances within sparsely allocated blocks, up to 10x faster and in 8x less memory than the state-of-the-art at manipulation scale, with up to 99% collision recall; and (3) scalable GPU-native whole-body computation, namely topology-aware kinematics, differentiable inverse dynamics, and map-reduce self-collision, that achieves up to 61x speedup while also extending to high-DoF humanoids (where previous GPU implementations fail). On benchmarks, cuRoboV2 achieves 99.7% success under 3kg payload (where baselines achieve only 72--77%), 99.6% collision-free IK on a 48-DoF humanoid (where prior methods fail entirely), and 89.5% retargeting constraint satisfaction (vs. 61% for PyRoki); these collision-free motions yield locomotion policies with 21% lower tracking error than PyRoki and 12x lower cross-seed variance than mink. A ground-up codebase redesign for discoverability enabled LLM coding assistants to author up to 73% of new modules, including hand-optimized CUDA kernels, demonstrating that well-structured robotics code can unlock productive human--LLM collaboration. Together, these advances provide a unified, dynamics-aware motion generation stack that scales from single-arm manipulators to full humanoids.",
-      "categories": "cs.RO"
+      "published": "2026-03-05T14:42:19Z",
+      "arxiv_id": "2603.05230v1",
+      "url": "http://arxiv.org/abs/2603.05230v1",
+      "abstract": "The increasing demand for sustainable textile recycling requires robust automation solutions capable of handling deformable garments and detecting foreign objects in cluttered environments. This work presents a digital twin driven robotic sorting system that integrates grasp prediction, multi modal perception, and semantic reasoning for real world textile classification. A dual arm robotic cell equipped with RGBD sensing, capacitive tactile feedback, and collision-aware motion planning autonomously separates garments from an unsorted basket, transfers them to an inspection zone, and classifies them using state of the art Visual Language Models (VLMs). We benchmark nine VLM s from five model families on a dataset of 223 inspection scenarios comprising shirts, socks, trousers, underwear, foreign objects (including garments outside of the aforementioned classes), and empty scenes. The evaluation assesses per class accuracy, hallucination behavior, and computational performance under practical hardware constraints. Results show that the Qwen model family achieves the highest overall accuracy (up to 87.9 %), with strong foreign object detection performance, while lighter models such as Gemma3 offer competitive speed accuracy trade offs for edge deployment. A digital twin combined with MoveIt enables collision aware path planning and integrates segmented 3D point clouds of inspected garments into the virtual environment for improved manipulation reliability. The presented system demonstrates the feasibility of combining semantic VLM reasoning with conventional grasp detection and digital twin technology for scalable, autonomous textile sorting in realistic industrial settings.",
+      "categories": "cs.CV"
     },
     {
-      "title": "Residual RL--MPC for Robust Microrobotic Cell Pushing Under Time-Varying Flow",
+      "title": "Adaptive Sampling for Storage of Progressive Images on DNA",
       "authors": [
-        "Yanda Yang",
-        "Sambeeta Das"
+        "Xavier Pic",
+        "Nimesh Pinnamaneni",
+        "Raja Appuswamy"
       ],
-      "published": "2026-03-05T18:20:07Z",
-      "arxiv_id": "2603.05448v1",
-      "url": "http://arxiv.org/abs/2603.05448v1",
-      "abstract": "Contact-rich micromanipulation in microfluidic flow is challenging because small disturbances can break pushing contact and induce large lateral drift. We study planar cell pushing with a magnetic rolling microrobot that tracks a waypoint-sampled reference curve under time-varying Poiseuille flow. We propose a hybrid controller that augments a nominal MPC with a learned residual policy trained by SAC. The policy outputs a bounded 2D velocity correction that is contact-gated, so residual actions are applied only during robot--cell contact, preserving reliable approach behavior and stabilizing learning. All methods share the same actuation interface and speed envelope for fair comparisons. Experiments show improved robustness and tracking accuracy over pure MPC and PID under nonstationary flow, with generalization from a clover training curve to unseen circle and square trajectories. A residual-bound sweep identifies an intermediate correction limit as the best trade-off, which we use in all benchmarks.",
-      "categories": "cs.RO"
+      "published": "2026-03-05T14:33:01Z",
+      "arxiv_id": "2603.05220v1",
+      "url": "http://arxiv.org/abs/2603.05220v1",
+      "abstract": "The short lifespan of traditional data storage media, coupled with an exponential increase in storage demand, has made long-term archival a fundamental problem in the data storage industry and beyond. Consequently, researchers are looking for innovative media solutions that can store data over long time periods at a very low cost. DNA molecules, with their high density, long lifespan, and low energy needs, have emerged as a viable alternative to digital data archival. However, current DNA data storage technologies are facing challenges with respect to cost and reliability. Thus, coding rate and error robustness are critical to scale DNA storage and make it technologically and economically achievable. Moreover, the molecules of DNA that encode different files are often located in the same oligo pool. Without random access solutions at the oligo level, it is very impractical to decode a specific file from these mixed pools, as all oligos need to first be sequenced and decoded before a target file can be retrieved, which greatly deteriorates the read cost.   This paper introduces a solution to efficiently encode and store images into DNA molecules, that aims at reducing the read cost necessary to retrieve a resolution-reduced version of an image. This image storage system is based on the Progressive Decoding Functionality of the JPEG2000 codec but can be adapted to any conventional progressive codec. Each resolution layer is encoded into a set of oligos using the JPEG DNA VM codec, a DNA-based coder that aims at retrieving a file with a high reliability. Depending on the desired resolution to be read, the set of oligos as well as the portion of the oligos to be sequenced and decoded are adjusted accordingly. These oligos will be selected at sequencing time, with the help of the adaptive sampling method provided by the Nanopore sequencers, making it a PCR-free random access solution.",
+      "categories": "eess.IV"
     },
     {
-      "title": "PhysiFlow: Physics-Aware Humanoid Whole-Body VLA via Multi-Brain Latent Flow Matching and Robust Tracking",
+      "title": "False traps on quantum-classical optimization landscapes",
       "authors": [
-        "Weikai Qin",
-        "Sichen Wu",
-        "Ci Chen",
-        "Mengfan Liu",
-        "Linxi Feng",
-        "Xinru Cui",
-        "Haoqi Han",
-        "Hesheng Wang"
+        "Xiaozhen Ge",
+        "Shuming Cheng",
+        "Guofeng Zhang",
+        "Re-Bing Wu"
       ],
-      "published": "2026-03-05T17:33:20Z",
-      "arxiv_id": "2603.05410v1",
-      "url": "http://arxiv.org/abs/2603.05410v1",
-      "abstract": "In the domain of humanoid robot control, the fusion of Vision-Language-Action (VLA) with whole-body control is essential for semantically guided execution of real-world tasks. However, existing methods encounter challenges in terms of low VLA inference efficiency or an absence of effective semantic guidance for whole-body control, resulting in instability in dynamic limb-coordinated tasks. To bridge this gap, we present a semantic-motion intent guided, physics-aware multi-brain VLA framework for humanoid whole-body control. A series of experiments was conducted to evaluate the performance of the proposed framework. The experimental results demonstrated that the framework enabled reliable vision-language-guided full-body coordination for humanoid robots.",
-      "categories": "cs.RO"
+      "published": "2026-03-05T14:03:09Z",
+      "arxiv_id": "2603.05190v1",
+      "url": "http://arxiv.org/abs/2603.05190v1",
+      "abstract": "Optimization is ubiquitous in quantum information science and technology, however, the corresponding optimization landscape can encounter false traps, i.e., local but not global optima, likely to prevent used optimizers from finding optimal solutions. Such traps are believed to arise from parameter insufficiency and are expected to disappear when tunable parameters are sufficiently abundant. In this work, we investigate optimization landscapes of quantum optimization problems, and especially obtain that the parameter sufficiency is not enough to ensure the absence of false traps. First, we present a complete framework for analyzing critical features of optimization landscapes, by deriving necessary and sufficient conditions to identify all critical points and to classify them as local maxima, minima, or saddles, under some assumptions. Then, we show that false traps can still emerge on landscapes even with sufficient parameters, implying their appearance cannot be solely attributed to parameter insufficiency. Moreover, a close connection between landscape topology and quantum distinguishability is revealed that the emergence of false traps is linked to the loss of distinguishability among states or operators in the objective function. Finally, implications of our results are noted. Our work not only provides a deeper understanding of the intrinsic complexity of quantum-classical optimization, but also provides practical guidance for solving quantum-classical optimization problems, thus significantly aiding the progress in witnessing quantum advantages of the underlying quantum information processing tasks.",
+      "categories": "quant-ph"
     },
     {
-      "title": "Accelerating Sampling-Based Control via Learned Linear Koopman Dynamics",
+      "title": "V2N-Based Algorithm and Communication Protocol for Autonomous Non-Stop Intersections",
       "authors": [
-        "Wenjian Hao",
-        "Yuxuan Fang",
-        "Zehui Lu",
-        "Shaoshuai Mou"
+        "Lorenzo Farina",
+        "Lorenzo Mario Amorosa",
+        "Marco Rapelli",
+        "Barbara Mav\u00ed Masini",
+        "Claudio Casetti",
+        "Alessandro Bazzi"
       ],
-      "published": "2026-03-05T17:15:52Z",
-      "arxiv_id": "2603.05385v1",
-      "url": "http://arxiv.org/abs/2603.05385v1",
-      "abstract": "This paper presents an efficient model predictive path integral (MPPI) control framework for systems with complex nonlinear dynamics. To improve the computational efficiency of classic MPPI while preserving control performance, we replace the nonlinear dynamics used for trajectory propagation with a learned linear deep Koopman operator (DKO) model, enabling faster rollout and more efficient trajectory sampling. The DKO dynamics are learned directly from interaction data, eliminating the need for analytical system models. The resulting controller, termed MPPI-DK, is evaluated in simulation on pendulum balancing and surface vehicle navigation tasks, and validated on hardware through reference-tracking experiments on a quadruped robot. Experimental results demonstrate that MPPI-DK achieves control performance close to MPPI with true dynamics while substantially reducing computational cost, enabling efficient real-time control on robotic platforms.",
-      "categories": "cs.RO"
+      "published": "2026-03-05T13:35:32Z",
+      "arxiv_id": "2603.05165v1",
+      "url": "http://arxiv.org/abs/2603.05165v1",
+      "abstract": "Intersections are critical areas for road safety and traffic efficiency, accounting for a significant portion of vehicle crashes and fatalities. While connected and autonomous vehicle (CAV) technologies offer a promising solution for autonomous intersection management, many existing proposals either rely on computationally heavy centralized controllers or overlook the practical impairments of real-world communication networks. This paper introduces seamless mobility of vehicles over intersections (Moveover), a novel algorithm comprising a vehicle-to-network (V2N) communication protocol designed to let vehicles cross autonomous intersections without stopping. Moveover delegates trajectory and speed profile selection to individual vehicles, allowing each CAV to optimize them according to its unique kinematic characteristics. Simultaneously, a local intersection controller prevents collisions through deterministic conflict zone reservations. The algorithm is rigorously evaluated under both ideal and non-ideal networking conditions, specifically modeling 4G and 5G communication delays, across multiple layouts including single-lane, multi-lane, and roundabouts. Furthermore, we test Moveover on a real urban map with multiple intersections. Simulation results demonstrate that Moveover significantly outperforms baseline strategies, offering substantial improvements in travel times and reduced pollutant emissions.",
+      "categories": "cs.NI"
     },
     {
-      "title": "UltraDexGrasp: Learning Universal Dexterous Grasping for Bimanual Robots with Synthetic Data",
+      "title": "Standardizing Access to Heterogeneous Quantum Backends: A Case Study on Cloud Service Integration with QDMI",
       "authors": [
-        "Sizhe Yang",
-        "Yiman Xie",
-        "Zhixuan Liang",
-        "Yang Tian",
-        "Jia Zeng",
-        "Dahua Lin",
-        "Jiangmiao Pang"
+        "Patrick Hopf",
+        "Sebastian Stern",
+        "Robert Wille",
+        "Lukas Burgholzer"
       ],
-      "published": "2026-03-05T15:54:21Z",
-      "arxiv_id": "2603.05312v1",
-      "url": "http://arxiv.org/abs/2603.05312v1",
-      "abstract": "Grasping is a fundamental capability for robots to interact with the physical world. Humans, equipped with two hands, autonomously select appropriate grasp strategies based on the shape, size, and weight of objects, enabling robust grasping and subsequent manipulation. In contrast, current robotic grasping remains limited, particularly in multi-strategy settings. Although substantial efforts have targeted parallel-gripper and single-hand grasping, dexterous grasping for bimanual robots remains underexplored, with data being a primary bottleneck. Achieving physically plausible and geometrically conforming grasps that can withstand external wrenches poses significant challenges. To address these issues, we introduce UltraDexGrasp, a framework for universal dexterous grasping with bimanual robots. The proposed data-generation pipeline integrates optimization-based grasp synthesis with planning-based demonstration generation, yielding high-quality and diverse trajectories across multiple grasp strategies. With this framework, we curate UltraDexGrasp-20M, a large-scale, multi-strategy grasp dataset comprising 20 million frames across 1,000 objects. Based on UltraDexGrasp-20M, we further develop a simple yet effective grasp policy that takes point clouds as input, aggregates scene features via unidirectional attention, and predicts control commands. Trained exclusively on synthetic data, the policy achieves robust zero-shot sim-to-real transfer and consistently succeeds on novel objects with varied shapes, sizes, and weights, attaining an average success rate of 81.2% in real-world universal dexterous grasping. To facilitate future research on grasping with bimanual robots, we open-source the data generation pipeline at https://github.com/InternRobotics/UltraDexGrasp.",
-      "categories": "cs.RO"
+      "published": "2026-03-05T13:05:29Z",
+      "arxiv_id": "2603.05138v1",
+      "url": "http://arxiv.org/abs/2603.05138v1",
+      "abstract": "With an increasingly diverse portfolio of quantum backends, the adoption of standardized interfaces has become a key prerequisite for scalable access and interoperability within quantum software stacks. The Quantum Device Management Interface (QDMI) addresses this challenge and is emerging as one of the de facto standards for hardware abstraction, enabling the unified management not only of individual Quantum Processing Units (QPUs) but also of complete full-stack cloud services. This paper presents a case study demonstrating the integration of QDMI with Amazon Braket, a quantum computing cloud service that provides a single access point to a wide range of hardware technologies. By treating the cloud service itself as a unified device, the proposed implementation enables management of the complete task lifecycle - ranging from authentication and circuit submission to result retrieval - across Braket's heterogeneous set of simulators and hardware backends. We detail the engineering insights gained from this integration and present a hands-on example workflow, ultimately paving the way for integrated access to cloud-hosted quantum resources from QDMI-enabled software stacks.",
+      "categories": "quant-ph"
     },
     {
-      "title": "Curve-Induced Dynamical Systems on Riemannian Manifolds and Lie Groups",
+      "title": "A Fully Open-source Implementation of an Analog 8-PAM Demapper for High-speed Communications",
       "authors": [
-        "Saray Bakker",
-        "Martin Schonger",
-        "Tobias L\u00f6w",
-        "Javier Alonso-Mora",
-        "Sylvain Calinon"
+        "Mohamed Aiham Hemza",
+        "Alex Alvarado",
+        "Krzysztof Herman",
+        "Piyush Kaul"
       ],
-      "published": "2026-03-05T15:18:26Z",
-      "arxiv_id": "2603.05268v1",
-      "url": "http://arxiv.org/abs/2603.05268v1",
-      "abstract": "Deploying robots in household environments requires safe, adaptable, and interpretable behaviors that respect the geometric structure of tasks. Often represented on Lie groups and Riemannian manifolds, this includes poses on SE(3) or symmetric positive definite matrices encoding stiffness or damping matrices. In this context, dynamical system-based approaches offer a natural framework for generating such behavior, providing stability and convergence while remaining responsive to changes in the environment. We introduce Curve-induced Dynamical systems on Smooth Manifolds (CDSM), a real-time framework for constructing dynamical systems directly on Riemannian manifolds and Lie groups. The proposed approach constructs a nominal curve on the manifold, and generates a dynamical system which combines a tangential component that drives motion along the curve and a normal component that attracts the state toward the curve. We provide a stability analysis of the resulting dynamical system and validate the method quantitatively. On an S2 benchmark, CDSM demonstrates improved trajectory accuracy, reduced path deviation, and faster generation and query times compared to state-of-the-art methods. Finally, we demonstrate the practical applicability of the framework on both a robotic manipulator, where poses on SE(3) and damping matrices on SPD(n) are adapted online, and a mobile manipulator.",
-      "categories": "cs.RO"
+      "published": "2026-03-05T12:54:00Z",
+      "arxiv_id": "2603.05127v1",
+      "url": "http://arxiv.org/abs/2603.05127v1",
+      "abstract": "Spectrally-efficient communication systems rely on the use of multi-level modulation formats. At the receiver side, a demodulator is often used to extract soft information about the transmitted bits. Such a demodulator is typically implemented in the digital domain. However, analog implementations of such demodulators are also possible. In this paper, we design and simulate an analog 8-ary pulse-amplitude modulation (8-PAM) demapper in IHP SG13G2 SiGe BiCMOS technology. We generalize and improve a design available in the literature for 4-PAM. A fully MOSFET-based 8-PAM design is proposed. Our simulations and design are completely based on open-source IC design tools. Our results show an energy efficiency of 0.33 pJ/bit for a data rate of 1Gbit/s.",
+      "categories": "eess.SP"
     },
     {
-      "title": "U-OBCA: Uncertainty-Aware Optimization-Based Collision Avoidance via Wasserstein Distributionally Robust Chance Constraints",
+      "title": "MCEL: Margin-Based Cross-Entropy Loss for Error-Tolerant Quantized Neural Networks",
       "authors": [
-        "Zehao Wang",
-        "Yuxuan Tang",
-        "Han Zhang",
-        "Jingchuan Wang",
-        "Weidong Chen"
+        "Mikail Yayla",
+        "Akash Kumar"
       ],
-      "published": "2026-03-05T07:59:09Z",
-      "arxiv_id": "2603.04914v1",
-      "url": "http://arxiv.org/abs/2603.04914v1",
-      "abstract": "Uncertainties arising from localization error, trajectory prediction errors of the moving obstacles and environmental disturbances pose significant challenges to robot's safe navigation. Existing uncertainty-aware planners often approximate polygon-shaped robots and obstacles using simple geometric primitives such as circles or ellipses. Though computationally convenient, these approximations substantially shrink the feasible space, leading to overly conservative trajectories and even planning failure in narrow environments. In addition, many such methods rely on specific assumptions about noise distributions, which may not hold in practice and thus limit their performance guarantees. To address these limitations, we extend the Optimization-Based Collision Avoidance (OBCA) framework to an uncertainty-aware formulation, termed \\emph{U-OBCA}. The proposed method explicitly accounts for the collision risk between polygon-shaped robots and obstacles by formulating OBCA-based chance constraints, and hence avoiding geometric simplifications and reducing unnecessary conservatism. These probabilistic constraints are further tightened into deterministic nonlinear constraints under mild distributional assumptions, which can be solved efficiently by standard numerical optimization solvers. The proposed approach is validated through theoretical analysis, numerical simulations and real-world experiments. The results demonstrate that U-OBCA significantly mitigates the conservatism in trajectory planning and achieves higher navigation efficiency compared to existing baseline methods, particularly in narrow and cluttered environments.",
-      "categories": "cs.RO"
+      "published": "2026-03-05T10:58:30Z",
+      "arxiv_id": "2603.05048v1",
+      "url": "http://arxiv.org/abs/2603.05048v1",
+      "abstract": "Robustness to bit errors is a key requirement for the reliable use of neural networks (NNs) on emerging approximate computing platforms and error-prone memory technologies. A common approach to achieve bit error tolerance in NNs is injecting bit flips during training according to a predefined error model. While effective in certain scenarios, training-time bit flip injection introduces substantial computational overhead, often degrades inference accuracy at high error rates, and scales poorly for larger NN architectures. These limitations make error injection an increasingly impractical solution for ensuring robustness on future approximate computing platforms and error-prone memory technologies. In this work, we investigate the mechanisms that enable NNs to tolerate bit errors without relying on error-aware training. We establish a direct connection between bit error tolerance and classification margins at the output layer. Building on this insight, we propose a novel loss function, the Margin Cross-Entropy Loss (MCEL), which explicitly promotes logit-level margin separation while preserving the favorable optimization properties of the standard cross-entropy loss. Furthermore, MCEL introduces an interpretable margin parameter that allows robustness to be tuned in a principled manner. Extensive experimental evaluations across multiple datasets of varying complexity, diverse NN architectures, and a range of quantization schemes demonstrate that MCEL substantially improves bit error tolerance, up to 15 % in accuracy for an error rate of 1 %. Our proposed MCEL method is simple to implement, efficient, and can be integrated as a drop-in replacement for standard CEL. It provides a scalable and principled alternative to training-time bit flip injection, offering new insights into the origins of NN robustness and enabling more efficient deployment on approximate computing and memory systems.",
+      "categories": "cs.LG"
     },
     {
-      "title": "Causally Robust Reward Learning from Reason-Augmented Preference Feedback",
+      "title": "Enhanced Third-Order Optical Nonlinearity in a Dipolar Carbene-Metal-Amide Material with Two-Photon Excited Delayed Fluorescence",
       "authors": [
-        "Minjune Hwang",
-        "Yigit Korkmaz",
-        "Daniel Seita",
-        "Erdem B\u0131y\u0131k"
+        "Ikechukwu D Nwosu",
+        "Lujo Matasovi\u0107",
+        "T\u00e1rcius N Ramos",
+        "Nguyen Le Phuoc",
+        "Giacomo Londi",
+        "Alexander J Gillett",
+        "Daniel T W Toolan",
+        "Charles T Smith",
+        "George F S Whitehead",
+        "Mireille Blanchard-Desce",
+        "Jonathan Daniel",
+        "Mikko Linnolahti",
+        "Yoann Olivier",
+        "Alexander S Romanov"
       ],
-      "published": "2026-03-05T06:35:21Z",
-      "arxiv_id": "2603.04861v1",
-      "url": "http://arxiv.org/abs/2603.04861v1",
-      "abstract": "Preference-based reward learning is widely used for shaping agent behavior to match a user's preference, yet its sparse binary feedback makes it especially vulnerable to causal confusion. The learned reward often latches onto spurious features that merely co-occur with preferred trajectories during training, collapsing when those correlations disappear or reverse at test time. We introduce ReCouPLe, a lightweight framework that uses natural language rationales to provide the missing causal signal. Each rationale is treated as a guiding projection axis in an embedding space, training the model to score trajectories based on features aligned with that axis while de-emphasizing context that is unrelated to the stated reason. Because the same rationales (e.g., \"avoids collisions\", \"completes the task faster\") can appear across multiple tasks, ReCouPLe naturally reuses the same causal direction whenever tasks share semantics, and transfers preference knowledge to novel tasks without extra data or language-model fine-tuning. Our learned reward model can ground preferences on the articulated reason, aligning better with user intent and generalizing beyond spurious features. ReCouPLe outperforms baselines by up to 1.5x in reward accuracy under distribution shifts, and 2x in downstream policy performance in novel tasks. We have released our code at https://github.com/mj-hwang/ReCouPLe",
+      "published": "2026-03-05T10:44:30Z",
+      "arxiv_id": "2603.05039v1",
+      "url": "http://arxiv.org/abs/2603.05039v1",
+      "abstract": "Advanced photonic materials showing two-photon absorption (2PA) have been widely explored to develop three-dimensional imaging, micro and nanofabrication, all-optical switching, lithography on a nanoscale and many other enabling technologies. These all require nonlinear absorption chromophores with intrinsic 2PA cross-sections and long-term photo-and thermal stability. Here, we disclose the very first example of the dipolar carbenemetal-amide (CMA) material showing a enhanced 2PA cross-section up to 105 GM. Overall molecular design considerations such as extended $\u03c0$-conjugation (to increase polarizability), minimizing the singlet-triplet energy gap ($\u0394$E ST ), and using heavy metal atoms are the first design principles to obtain bright one-and two-photon excited thermally activated delayed fluorescence (TADF) material, showing one of the highest radiative rate of 2.18$\\bullet$10 6 s -1 across CMA materials. Bright red CMA 2P-TADF material shows excellent photostability (LT 50 = 3 h) to 20 mW femtosecond pulsed laser excitation at 1000 nm, encouraging further CMA exploration for future applications in advanced photonic technologies requiring third-order nonlinear optical properties.",
+      "categories": "physics.chem-ph"
+    },
+    {
+      "title": "The Trilingual Triad Framework: Integrating Design, AI, and Domain Knowledge in No-code AI Smart City Course",
+      "authors": [
+        "Qian Huang",
+        "King Wang Poon"
+      ],
+      "published": "2026-03-05T10:34:39Z",
+      "arxiv_id": "2603.05036v1",
+      "url": "http://arxiv.org/abs/2603.05036v1",
+      "abstract": "This paper introduces the \"Trilingual Triad\" framework, a model that explains how students learn to design with generative artificial intelligence (AI) through the integration of Design, AI, and Domain Knowledge. As generative AI rapidly enters higher education, students often engage with these systems as passive users of generated outputs rather than active creators of AI-enabled knowledge tools. This study investigates how students can transition from using AI as a tool to designing AI as a collaborative teammate. The research examines a graduate course, Creating the Frontier of No-code Smart Cities at the Singapore University of Technology and Design (SUTD), in which students developed domain-specific custom GPT systems without coding. Using a qualitative multi-case study approach, three projects - the Interview Companion GPT, the Urban Observer GPT, and Buddy Buddy - were analyzed across three dimensions: design, AI architecture, and domain expertise. The findings show that effective human-AI collaboration emerges when these three \"languages\" are orchestrated together: domain knowledge structures the AI's logic, design mediates human-AI interaction, and AI extends learners' cognitive capacity. The Trilingual Triad framework highlights how building AI systems can serve as a constructionist learning process that strengthens AI literacy, metacognition, and learner agency.",
       "categories": "cs.AI"
-    },
-    {
-      "title": "On the Strengths and Weaknesses of Data for Open-set Embodied Assistance",
-      "authors": [
-        "Pradyumna Tambwekar",
-        "Andrew Silva",
-        "Deepak Gopinath",
-        "Jonathan DeCastro",
-        "Xiongyi Cui",
-        "Guy Rosman"
-      ],
-      "published": "2026-03-05T05:10:47Z",
-      "arxiv_id": "2603.04819v1",
-      "url": "http://arxiv.org/abs/2603.04819v1",
-      "abstract": "Embodied foundation models are increasingly performant in real-world domains such as robotics or autonomous driving. These models are often deployed in interactive or assistive settings, where it is important that these assistive models generalize to new users and new tasks. Diverse interactive data generation offers a promising avenue for providing data-efficient generalization capabilities for interactive embodied foundation models. In this paper, we investigate the generalization capabilities of a multimodal foundation model fine-tuned on diverse interactive assistance data in a synthetic domain. We explore generalization along two axes: a) assistance with unseen categories of user behavior and b) providing guidance in new configurations not encountered during training. We study a broad capability called \\textbf{Open-Set Corrective Assistance}, in which the model needs to inspect lengthy user behavior and provide assistance through either corrective actions or language-based feedback. This task remains unsolved in prior work, which typically assumes closed corrective categories or relies on external planners, making it a challenging testbed for evaluating the limits of assistive data. To support this task, we generate synthetic assistive datasets in Overcooked and fine-tune a LLaMA-based model to evaluate generalization to novel tasks and user behaviors. Our approach provides key insights into the nature of assistive datasets required to enable open-set assistive intelligence. In particular, we show that performant models benefit from datasets that cover different aspects of assistance, including multimodal grounding, defect inference, and exposure to diverse scenarios.",
-      "categories": "cs.RO"
-    },
-    {
-      "title": "Selecting Spots by Explicitly Predicting Intention from Motion History Improves Performance in Autonomous Parking",
-      "authors": [
-        "Long Kiu Chung",
-        "David Isele",
-        "Faizan M. Tariq",
-        "Sangjae Bae",
-        "Shreyas Kousik",
-        "Jovin D'sa"
-      ],
-      "published": "2026-03-05T00:21:44Z",
-      "arxiv_id": "2603.04695v1",
-      "url": "http://arxiv.org/abs/2603.04695v1",
-      "abstract": "In many applications of social navigation, existing works have shown that predicting and reasoning about human intentions can help robotic agents make safer and more socially acceptable decisions. In this work, we study this problem for autonomous valet parking (AVP), where an autonomous vehicle ego agent must drop off its passengers, explore the parking lot, find a parking spot, negotiate for the spot with other vehicles, and park in the spot without human supervision. Specifically, we propose an AVP pipeline that selects parking spots by explicitly predicting where other agents are going to park from their motion history using learned models and probabilistic belief maps. To test this pipeline, we build a simulation environment with reactive agents and realistic modeling assumptions on the ego agent, such as occlusion-aware observations, and imperfect trajectory prediction. Simulation experiments show that our proposed method outperforms existing works that infer intentions from future predicted motion or embed them implicitly in end-to-end models, yielding better results in prediction accuracy, social acceptance, and task completion. Our key insight is that, in parking, where driving regulations are more lax, explicit intention prediction is crucial for reasoning about diverse and ambiguous long-term goals, which cannot be reliably inferred from short-term motion prediction alone, but can be effectively learned from motion history.",
-      "categories": "cs.RO"
-    },
-    {
-      "title": "GIANT - Global Path Integration and Attentive Graph Networks for Multi-Agent Trajectory Planning",
-      "authors": [
-        "Jonas le Fevre Sejersen",
-        "Toyotaro Suzumura",
-        "Erdal Kayacan"
-      ],
-      "published": "2026-03-04T22:45:53Z",
-      "arxiv_id": "2603.04659v1",
-      "url": "http://arxiv.org/abs/2603.04659v1",
-      "abstract": "This paper presents a novel approach to multi-robot collision avoidance that integrates global path planning with local navigation strategies, utilizing attentive graph neural networks to manage dynamic interactions among agents. We introduce a local navigation model that leverages pre-planned global paths, allowing robots to adhere to optimal routes while dynamically adjusting to environmental changes. The models robustness is enhanced through the introduction of noise during training, resulting in superior performance in complex, dynamic environments. Our approach is evaluated against established baselines, including NH-ORCA, DRL-NAV, and GA3C-CADRL, across various structurally diverse simulated scenarios. The results demonstrate that our model achieves consistently higher success rates, lower collision rates, and more efficient navigation, particularly in challenging scenarios where baseline models struggle. This work offers an advancement in multi-robot navigation, with implications for robust performance in complex, dynamic environments with varying degrees of complexity, such as those encountered in logistics, where adaptability is essential for accommodating unforeseen obstacles and unpredictable changes.",
-      "categories": "cs.RO"
-    },
-    {
-      "title": "Autonomous Aerial Non-Destructive Testing: Ultrasound Inspection with a Commercial Quadrotor in an Unstructured Environment",
-      "authors": [
-        "Ruben Veenstra",
-        "Barbara Bazzana",
-        "Sander Smits",
-        "Antonio Franchi"
-      ],
-      "published": "2026-03-04T22:09:20Z",
-      "arxiv_id": "2603.04642v1",
-      "url": "http://arxiv.org/abs/2603.04642v1",
-      "abstract": "This work presents an integrated control and software architecture that enables arguably the first fully autonomous, contact-based non-destructive testing (NDT) using a commercial multirotor originally restricted to remotely-piloted operations. To allow autonomous operation with an off-the-shelf platform, we developed a real-time framework that interfaces directly with its onboard sensor suite. The architecture features a multi-rate control scheme: low-level control is executed at 200 Hz, force estimation at 100 Hz, while an admittance filter and trajectory planner operate at 50 Hz, ultimately supplying acceleration and yaw rate commands to the internal flight controller. We validate the system through physical experiments on a Flyability Elios 3 quadrotor equipped with an ultrasound payload. Relying exclusively on onboard sensing, the vehicle successfully performs autonomous NDT measurements within an unstructured, industrial-like environment. This work demonstrates the viability of retrofitting off-the-shelf platforms for autonomous physical interaction, paving the way for safe, contact-based inspection of hazardous and confined infrastructure.",
-      "categories": "cs.RO"
-    },
-    {
-      "title": "Risk-Aware Rulebooks for Multi-Objective Trajectory Evaluation under Uncertainty",
-      "authors": [
-        "Tichakorn Wongpiromsarn"
-      ],
-      "published": "2026-03-04T21:06:22Z",
-      "arxiv_id": "2603.04603v1",
-      "url": "http://arxiv.org/abs/2603.04603v1",
-      "abstract": "We present a risk-aware formalism for evaluating system trajectories in the presence of uncertain interactions between the system and its environment. The proposed formalism supports reasoning under uncertainty and systematically handles complex relationships among requirements and objectives, including hierarchical priorities and non-comparability. Rather than treating the environment as exogenous noise, we explicitly model how each system trajectory influences the environment and evaluate trajectories under the resulting distribution of environment responses. We prove that the formalism induces a preorder on the set of system trajectories, ensuring consistency and preventing cyclic preferences. Finally, we illustrate the approach with an autonomous driving example that demonstrates how the formalism enhances explainability by clarifying the rationale behind trajectory selection.",
-      "categories": "eess.SY"
     }
   ]
 }
