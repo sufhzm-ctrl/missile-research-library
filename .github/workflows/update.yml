@@ -2,7 +2,7 @@ name: Update Missile Research Library
 
 on:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -36,11 +38,12 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git pull --rebase
           git add -A
           if git diff --quiet --cached; then
             echo "No changes to commit"
           else
-            git commit -m "Auto-update: Fetch latest papers $(date +%Y-%m-%d)"
+            git commit -m "Auto-update: Fetch latest papers $(date +%Y-%m-%d\ %H:%M)"
             git push
           fi
 
@@ -60,6 +63,9 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: 'docs'
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
